@@ -2,14 +2,16 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Menu, ShoppingCart, Leaf } from "lucide-react";
+import { Menu, ShoppingCart, Leaf, ChevronRight, Phone } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+
 import {
   Sheet,
   SheetContent,
   SheetTrigger,
   SheetTitle,
+  SheetClose,
 } from "@/components/ui/sheet";
 
 const navigation = [
@@ -86,17 +88,29 @@ export function Navbar() {
                 <Leaf className="w-5 h-5" />
                 NUSARA NIAGA
               </SheetTitle>
-              <nav className="flex flex-col gap-4">
+              <nav className="flex flex-col mt-4">
                 {navigation.map((item) => (
-                  <Link
+                  <SheetClose
                     key={item.name}
-                    href={item.href}
-                    className="text-lg font-medium hover:text-primary transition-colors"
+                    render={<Link href={item.href} />}
+                    className="flex items-center justify-between py-4 border-b border-border/50 text-lg font-medium text-foreground/90 hover:text-primary transition-colors"
                   >
                     {item.name}
-                  </Link>
+                    <ChevronRight className="w-5 h-5 text-muted-foreground/50" />
+                  </SheetClose>
                 ))}
               </nav>
+              
+              <div className="mt-8 space-y-4">
+                 <div className="p-4 bg-primary/5 rounded-2xl border border-primary/10">
+                    <h4 className="font-semibold text-primary mb-2">Butuh Bantuan?</h4>
+                    <p className="text-sm text-muted-foreground mb-4">Hubungi layanan pelanggan kami untuk pertanyaan atau pemesanan.</p>
+                    <Button render={<a href="https://wa.me/6281100000000" target="_blank" rel="noopener noreferrer" />} className="w-full bg-[#25D366] text-white hover:bg-[#128C7E]">
+                       <Phone className="w-4 h-4 mr-2" />
+                       WhatsApp Kami
+                    </Button>
+                 </div>
+              </div>
             </SheetContent>
           </Sheet>
         </div>
