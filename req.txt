@@ -1,0 +1,1455 @@
+Create a world-class modern e-commerce and agricultural brand website for **"Nusara Niaga"**, a modern Indonesian local rice and agricultural commerce brand that connects local farmers, rice mills, villages, and consumers.
+
+Nusara Niaga starts with rice as its primary product, focusing on providing high-quality, fresh, affordable rice sourced from local farmers while strengthening the local village economy.
+
+The brand philosophy is:
+
+**"Dari Desa, Untuk Nusantara."**
+
+Nusara Niaga represents a new generation of Indonesian agricultural commerce — combining local agricultural products, trusted village producers, modern technology, transparent supply chains, and convenient online shopping.
+
+The website should feel:
+
+* Modern
+* Trustworthy
+* Local
+* Premium
+* Warm
+* Fresh
+* Affordable
+* Community-driven
+* Professional
+* Indonesian
+
+Do NOT make the website look like a traditional grocery store.
+
+It should look like a modern Indonesian agricultural startup and premium FMCG brand.
+
+========================================================
+
+# TECH STACK
+
+Use:
+
+* Next.js App Router
+* React 19
+* TypeScript
+* Tailwind CSS v4
+* shadcn/ui
+* Framer Motion
+* Lucide React
+* Responsive Mobile First
+* Dark & Light Mode
+* SEO Optimized
+* Clean Code
+* Reusable Components
+* Component-based Architecture
+
+========================================================
+
+# BRAND
+
+Brand Name:
+
+**NUSARA NIAGA**
+
+Brand Meaning:
+
+"Nusara" represents the spirit of the Indonesian archipelago, while "Niaga" represents commerce and trade.
+
+The brand should communicate:
+
+**Local Agriculture → Quality Products → Fair Trade → Strong Communities**
+
+Primary business:
+
+Rice and local agricultural products.
+
+Future expansion:
+
+* Rice
+* Sugar
+* Corn
+* Cooking ingredients
+* Local agricultural products
+* Village food products
+* Staple foods
+
+========================================================
+
+# TAGLINE
+
+Primary:
+
+**Dari Desa, Untuk Nusantara.**
+
+Alternative supporting statement:
+
+**Menghubungkan hasil desa dengan kebutuhan keluarga Indonesia.**
+
+Hero supporting message:
+
+**Beras berkualitas dari petani lokal, diproses dengan baik, dan hadir lebih dekat untuk keluarga Indonesia.**
+
+========================================================
+
+# BRAND PERSONALITY
+
+Nusara Niaga should feel:
+
+* Honest
+* Friendly
+* Reliable
+* Modern
+* Local
+* Sustainable
+* Transparent
+* Community-oriented
+
+Avoid:
+
+* Overly corporate
+* Generic supermarket design
+* Old-fashioned agricultural website
+* Excessive traditional ornaments
+* Cheap-looking marketplace UI
+
+========================================================
+
+# VISUAL IDENTITY
+
+Create a premium agricultural visual identity.
+
+Primary Colors:
+
+#285943
+#3F7D45
+#78A85A
+#E8D8A8
+#F7F4E8
+#FFFCF5
+#1F2937
+
+Color inspiration:
+
+* Rice fields
+* Fresh leaves
+* Golden rice
+* Natural soil
+* Morning sunlight
+
+Use:
+
+* Natural green
+* Rice gold
+* Warm cream
+* Earth tones
+
+Visual effects:
+
+* Soft gradients
+* Organic shapes
+* Subtle grain textures
+* Soft shadows
+* Rounded 2XL
+* Large whitespace
+* Premium product photography
+* Subtle glassmorphism
+
+========================================================
+
+# TYPOGRAPHY
+
+Primary:
+
+Geist
+
+Secondary:
+
+Inter
+
+Optional:
+
+Plus Jakarta Sans
+
+Typography should be modern, friendly, premium, and highly readable.
+
+========================================================
+
+# WEBSITE GOAL
+
+The website should:
+
+1. Sell quality rice directly to consumers.
+2. Introduce local farmers.
+3. Introduce the village origin of the rice.
+4. Build customer trust.
+5. Show transparent product information.
+6. Support local farmers.
+7. Strengthen the village economy.
+8. Make purchasing extremely simple.
+9. Build Nusara Niaga as a recognizable Indonesian agricultural brand.
+
+Primary CTA:
+
+**Beli Beras**
+
+Secondary CTA:
+
+**Kenali Petani Kami**
+
+========================================================
+
+# WEBSITE PAGES
+
+Create:
+
+1. Home
+2. Produk
+3. Detail Produk
+4. Tentang Nusara Niaga
+5. Petani & Desa
+6. Proses Produksi
+7. Edukasi
+8. Testimoni
+9. FAQ
+10. Kontak
+11. Cart
+12. Checkout
+13. Order Tracking
+
+========================================================
+
+# HOME PAGE
+
+## HERO SECTION
+
+Create a visually impressive hero section.
+
+Headline:
+
+**Dari Desa, Untuk Nusantara.**
+
+Alternative headline:
+
+**Beras Berkualitas dari Desa, Hadir untuk Keluarga.**
+
+Subheadline:
+
+**Nusara Niaga menghadirkan beras berkualitas dari petani lokal dengan proses yang terjaga, harga yang bersahabat, dan manfaat yang kembali menggerakkan ekonomi desa.**
+
+Primary CTA:
+
+**Beli Beras**
+
+Secondary CTA:
+
+**Kenali Nusara Niaga**
+
+Hero imagery:
+
+* Indonesian rice fields
+* Local Indonesian farmer
+* Golden rice plants
+* Premium rice packaging
+* Rice grains
+* Warm sunlight
+* Village landscape
+
+Use cinematic agricultural photography.
+
+Add floating UI badges:
+
+**100% Lokal**
+
+**Langsung dari Petani**
+
+**Fresh Harvest**
+
+**Mendukung Desa**
+
+Use subtle Framer Motion animation.
+
+========================================================
+
+# TRUST SECTION
+
+Immediately below hero.
+
+Title:
+
+**Lebih Dekat dengan Sumbernya. Lebih Yakin dengan Kualitasnya.**
+
+Create four trust cards.
+
+### BERAS LOKAL
+
+Beras berasal dari petani dan sentra pertanian lokal.
+
+### KUALITAS TERJAGA
+
+Setiap proses diperhatikan mulai dari gabah hingga pengemasan.
+
+### HARGA BERSAHABAT
+
+Menghadirkan harga yang adil bagi petani dan konsumen.
+
+### DUKUNG EKONOMI DESA
+
+Setiap pembelian ikut menggerakkan rantai ekonomi lokal.
+
+========================================================
+
+# PRODUCT SECTION
+
+Title:
+
+**Pilihan Beras Nusara Niaga**
+
+Subtitle:
+
+**Beras pilihan untuk kebutuhan keluarga sehari-hari.**
+
+Create premium product cards.
+
+---
+
+## PRODUCT 01
+
+Name:
+
+**Nusara Premium**
+
+Description:
+
+Beras pilihan dengan tekstur pulen, bersih, dan cocok untuk keluarga.
+
+Variants:
+
+5 KG
+10 KG
+25 KG
+
+Badges:
+
+Premium
+Best Seller
+Fresh Harvest
+
+Features:
+
+* Pulen
+* Bersih
+* Wangi
+* Cocok untuk keluarga
+
+CTA:
+
+**Beli Sekarang**
+
+---
+
+## PRODUCT 02
+
+Name:
+
+**Nusara Medium**
+
+Description:
+
+Beras berkualitas dengan harga ekonomis untuk kebutuhan sehari-hari.
+
+Variants:
+
+5 KG
+10 KG
+25 KG
+
+Badges:
+
+Ekonomis
+Best Value
+
+Features:
+
+* Bersih
+* Enak
+* Harga terjangkau
+* Cocok untuk konsumsi harian
+
+CTA:
+
+**Beli Sekarang**
+
+---
+
+## PRODUCT 03
+
+Name:
+
+**Nusara Pandan Wangi**
+
+Description:
+
+Beras pilihan dengan aroma khas dan tekstur pulen.
+
+Variants:
+
+5 KG
+10 KG
+
+Badges:
+
+Premium
+Aromatic
+
+Features:
+
+* Aroma khas
+* Pulen
+* Berkualitas
+* Pilihan keluarga
+
+CTA:
+
+**Beli Sekarang**
+
+---
+
+Each product card must include:
+
+* High-quality product image
+* Product name
+* Short description
+* Rating
+* Price
+* Weight selector
+* Stock indicator
+* Feature badges
+* Add to Cart
+* Buy Now
+
+Use premium hover animation.
+
+========================================================
+
+# PRODUCT DETAIL PAGE
+
+Create a premium product detail page.
+
+Include:
+
+* Product image gallery
+* Product name
+* Rating
+* Price
+* Weight variants
+* Quantity
+* Stock
+* Add to Cart
+* Buy Now
+* WhatsApp Order
+
+Product information:
+
+### ASAL BERAS
+
+**Desa [Nama Desa]**
+
+### VARIETAS
+
+Example:
+
+IR64
+Ciherang
+Inpari
+Pandan Wangi
+
+### BERAT
+
+5 KG
+10 KG
+25 KG
+
+### KARAKTERISTIK
+
+* Pulen
+* Bersih
+* Wangi
+* Tidak mudah basi
+
+### PANEN
+
+**[Bulan / Tahun]**
+
+### PENGGILINGAN
+
+**[Nama Penggilingan]**
+
+========================================================
+
+# FARM TO TABLE
+
+Create a visually impressive storytelling section.
+
+Headline:
+
+**Dari Sawah, Sampai ke Meja Makan Anda.**
+
+Show the complete journey:
+
+01
+Petani Menanam
+
+↓
+
+02
+Perawatan Sawah
+
+↓
+
+03
+Panen
+
+↓
+
+04
+Pengeringan
+
+↓
+
+05
+Penggilingan
+
+↓
+
+06
+Sortir
+
+↓
+
+07
+Pengemasan
+
+↓
+
+08
+Sampai ke Rumah Anda
+
+Use animated timeline and agricultural illustrations.
+
+========================================================
+
+# FARMER SECTION
+
+Headline:
+
+**Di Balik Setiap Butir Beras, Ada Petani.**
+
+Subheadline:
+
+**Kami percaya kualitas beras dimulai dari orang-orang yang merawat sawahnya.**
+
+Create farmer cards.
+
+Each card:
+
+* Farmer photo
+* Name
+* Village
+* Farming experience
+* Rice variety
+* Short story
+
+Example:
+
+**Pak Ahmad**
+
+Petani dari Desa Sukamaju.
+
+**20+ Tahun Bertani**
+
+"Setiap musim tanam adalah harapan baru untuk keluarga dan desa."
+
+CTA:
+
+**Kenali Petani Kami**
+
+========================================================
+
+# VILLAGE SECTION
+
+Headline:
+
+**Dari Desa, Menggerakkan Nusantara.**
+
+Description:
+
+Nusara Niaga ingin membangun rantai perdagangan yang membuat hasil pertanian desa memiliki akses pasar yang lebih luas.
+
+Display statistics:
+
+**50+**
+
+Petani Lokal
+
+**100+**
+
+Hektar Sawah
+
+**10+**
+
+Tahun Pengalaman
+
+**1.000+**
+
+Keluarga Terlayani
+
+Use animated counters.
+
+========================================================
+
+# COMMUNITY IMPACT
+
+Headline:
+
+**Belanja Beras, Ikut Menguatkan Desa.**
+
+Explain:
+
+Ketika Anda membeli produk Nusara Niaga, Anda tidak hanya membeli beras.
+
+Anda ikut mendukung:
+
+* Petani lokal
+* Penggilingan lokal
+* Pekerja desa
+* UMKM lokal
+* Distribusi lokal
+* Pertumbuhan ekonomi desa
+
+Create visual flow:
+
+CUSTOMER
+
+↓
+
+NUSARA NIAGA
+
+↓
+
+RICE MILL
+
+↓
+
+LOCAL FARMERS
+
+↓
+
+VILLAGE ECONOMY
+
+Use animated arrows.
+
+========================================================
+
+# QUALITY CONTROL
+
+Headline:
+
+**Kami Menjaga Kualitas dari Gabah hingga Kemasan.**
+
+Create five steps.
+
+### 01 — Pemilihan Gabah
+
+Memilih hasil panen dengan kualitas yang sesuai standar.
+
+### 02 — Pengeringan
+
+Mengontrol proses pengeringan untuk menjaga kualitas gabah.
+
+### 03 — Penggilingan
+
+Gabah diproses menggunakan mesin penggilingan yang sesuai.
+
+### 04 — Sortir
+
+Beras disortir untuk menjaga kebersihan dan konsistensi.
+
+### 05 — Pengemasan
+
+Beras dikemas secara higienis dan siap dikirim.
+
+========================================================
+
+# WHY NUSARA NIAGA
+
+Create premium section.
+
+Headline:
+
+**Kenapa Memilih Nusara Niaga?**
+
+Cards:
+
+### Dari Sumber Lokal
+
+Lebih dekat dengan petani dan sumber produk.
+
+### Transparan
+
+Informasi asal dan proses produk dapat diketahui.
+
+### Harga Bersahabat
+
+Menghadirkan keseimbangan antara kualitas dan harga.
+
+### Kualitas Terjaga
+
+Proses produk diperhatikan dari awal hingga akhir.
+
+### Mendukung Petani
+
+Membantu menciptakan rantai perdagangan yang lebih sehat.
+
+### Praktis
+
+Pesan online dan produk dikirim ke rumah.
+
+========================================================
+
+# EDUCATION
+
+Create editorial section.
+
+Title:
+
+**Kenali Beras Anda.**
+
+Articles:
+
+1. Cara memilih beras berkualitas
+2. Perbedaan beras premium dan medium
+3. Cara menyimpan beras
+4. Mengenal varietas padi Indonesia
+5. Cara mencuci beras yang benar
+6. Berapa kebutuhan beras keluarga?
+7. Dari gabah menjadi beras
+8. Mengenal proses penggilingan padi
+
+Use beautiful editorial cards.
+
+========================================================
+
+# SPECIAL PACKAGE
+
+Create promotional section.
+
+Headline:
+
+**Paket Hemat Keluarga**
+
+Example:
+
+**Paket Nusara 20 KG**
+
+Contains:
+
+2 × Beras Nusara Premium 10 KG
+
+Show:
+
+Normal Price
+Discount Price
+Savings
+
+CTA:
+
+**Beli Paket**
+
+Create badges:
+
+Best Seller
+Hemat
+Keluarga
+
+========================================================
+
+# TESTIMONIALS
+
+Create modern testimonial cards.
+
+Example:
+
+"Rasanya pulen, bersih, dan cocok untuk makan sehari-hari."
+
+"Senang bisa membeli beras lokal sekaligus membantu petani."
+
+"Harganya masuk akal dan kualitasnya bagus."
+
+Each testimonial:
+
+* Avatar
+* Name
+* Location
+* Rating
+* Testimonial
+
+========================================================
+
+# ORDER PROCESS
+
+Create simple four-step process.
+
+### 01
+
+Pilih Produk
+
+Pilih beras dan ukuran yang Anda inginkan.
+
+### 02
+
+Checkout
+
+Masukkan alamat dan pilih metode pembayaran.
+
+### 03
+
+Kami Proses
+
+Pesanan diproses dan dikemas.
+
+### 04
+
+Sampai di Rumah
+
+Beras dikirim ke alamat Anda.
+
+========================================================
+
+# CART
+
+Create modern shopping cart.
+
+Features:
+
+* Product image
+* Product name
+* Weight
+* Quantity
+* Price
+* Discount
+* Remove
+* Subtotal
+* Shipping
+* Total
+
+CTA:
+
+**Lanjut Checkout**
+
+========================================================
+
+# CHECKOUT
+
+Customer information:
+
+Nama
+Nomor WhatsApp
+Email
+Alamat
+Kecamatan
+Kabupaten
+Provinsi
+Kode Pos
+
+Shipping:
+
+Regular
+Local Delivery
+Same Day where available
+
+Payment:
+
+Bank Transfer
+QRIS
+E-Wallet
+Cash on Delivery where available
+
+CTA:
+
+**Buat Pesanan**
+
+========================================================
+
+# ORDER TRACKING
+
+Create order tracking page.
+
+Timeline:
+
+Pesanan Dibuat
+↓
+Pembayaran Dikonfirmasi
+↓
+Pesanan Diproses
+↓
+Dikemas
+↓
+Dikirim
+↓
+Selesai
+
+Show:
+
+Order Number
+Customer
+Products
+Quantity
+Address
+Courier
+Tracking Number
+
+========================================================
+
+# WHATSAPP ORDER
+
+Create prominent WhatsApp ordering option.
+
+CTA:
+
+**Pesan via WhatsApp**
+
+Automatically generate WhatsApp order message.
+
+Example:
+
+Halo Nusara Niaga,
+
+Saya ingin memesan:
+
+Nusara Premium
+10 KG
+Jumlah: 2
+
+Nama:
+Alamat:
+
+Terima kasih.
+
+========================================================
+
+# ABOUT NUSARA NIAGA
+
+Headline:
+
+**Membangun Perdagangan Desa yang Lebih Dekat, Adil, dan Modern.**
+
+Description:
+
+Nusara Niaga hadir untuk memperpendek jarak antara hasil pertanian desa dan kebutuhan masyarakat.
+
+Kami memulai dari beras dan terus membangun ekosistem perdagangan produk lokal yang memberikan manfaat bagi petani, desa, dan konsumen.
+
+Vision:
+
+**Menjadi brand perdagangan hasil desa terpercaya yang menghubungkan produk lokal dengan masyarakat Indonesia.**
+
+Mission:
+
+* Meningkatkan akses pasar petani
+* Menyediakan produk berkualitas
+* Memberikan harga yang kompetitif
+* Mengembangkan ekonomi desa
+* Membangun rantai pasok yang transparan
+* Mengembangkan perdagangan produk lokal berbasis teknologi
+
+========================================================
+
+# BRAND VALUES
+
+Create six cards.
+
+### Lokal
+
+Mengutamakan potensi dan hasil desa.
+
+### Kualitas
+
+Menjaga kualitas produk secara konsisten.
+
+### Transparansi
+
+Terbuka mengenai produk dan prosesnya.
+
+### Keadilan
+
+Membangun hubungan yang sehat antara petani dan konsumen.
+
+### Inovasi
+
+Menggunakan teknologi untuk mempermudah perdagangan.
+
+### Keberlanjutan
+
+Membangun ekosistem ekonomi desa untuk jangka panjang.
+
+========================================================
+
+# FAQ
+
+Include at least 12 questions:
+
+1. Beras Nusara Niaga berasal dari mana?
+2. Apakah beras langsung dari petani?
+3. Apa perbedaan Nusara Premium dan Nusara Medium?
+4. Apakah tersedia ukuran 5 KG?
+5. Apakah bisa membeli dalam jumlah besar?
+6. Apakah bisa COD?
+7. Bagaimana cara pembayaran?
+8. Berapa lama pengiriman?
+9. Apakah bisa dikirim ke luar daerah?
+10. Bagaimana cara menyimpan beras?
+11. Apakah beras memiliki informasi tanggal panen?
+12. Bagaimana jika produk yang diterima rusak?
+
+Use animated accordion.
+
+========================================================
+
+# CONTACT
+
+Headline:
+
+**Mari Tumbuhkan Ekonomi Desa Bersama.**
+
+Contact:
+
+WhatsApp
+Phone
+Email
+Instagram
+Facebook
+TikTok
+
+Form:
+
+Nama
+Nomor WhatsApp
+Email
+Pesan
+
+CTA:
+
+**Hubungi Nusara Niaga**
+
+========================================================
+
+# FOOTER
+
+Logo:
+
+**NUSARA NIAGA**
+
+Tagline:
+
+**Dari Desa, Untuk Nusantara.**
+
+Description:
+
+Nusara Niaga menghubungkan hasil pertanian lokal dengan kebutuhan masyarakat melalui perdagangan yang modern, transparan, dan berkelanjutan.
+
+Navigation:
+
+Beranda
+Produk
+Tentang Kami
+Petani
+Proses
+Edukasi
+FAQ
+Kontak
+
+Customer Service:
+
+WhatsApp
+Phone
+Email
+
+Social:
+
+Instagram
+Facebook
+TikTok
+
+Copyright:
+
+© 2026 Nusara Niaga. Semua Hak Dilindungi.
+
+========================================================
+
+# ADMIN / BUSINESS DATA STRUCTURE
+
+Prepare the frontend architecture for future backend integration.
+
+Entities:
+
+Products
+Product Categories
+Product Variants
+Farmers
+Villages
+Rice Mills
+Orders
+Customers
+Payments
+Shipping
+Coupons
+Testimonials
+Articles
+FAQ
+Inventory
+
+Product fields:
+
+* Name
+* Slug
+* Description
+* Price
+* Discount
+* Weight
+* SKU
+* Stock
+* Rice Variety
+* Farmer
+* Village
+* Rice Mill
+* Harvest Date
+* Product Images
+* Rating
+* Status
+
+========================================================
+
+# FUTURE BACKEND
+
+Prepare architecture for:
+
+Backend:
+
+Laravel
+
+Database:
+
+MySQL / PostgreSQL
+
+Authentication:
+
+Laravel Sanctum
+
+Payment:
+
+Midtrans / Xendit
+
+Shipping:
+
+RajaOngkir / Biteship
+
+Notification:
+
+WhatsApp API
+
+Storage:
+
+S3-compatible storage
+
+========================================================
+
+# SEO
+
+Implement:
+
+* Metadata API
+* Dynamic Metadata
+* Open Graph
+* Twitter Card
+* JSON-LD
+* Product Schema
+* Organization Schema
+* LocalBusiness Schema
+* Breadcrumb Schema
+* Sitemap
+* Robots.txt
+* Canonical URLs
+* Semantic HTML
+
+SEO Title:
+
+**Nusara Niaga — Beras Lokal dari Desa untuk Nusantara**
+
+Meta Description:
+
+**Beli beras berkualitas dari petani lokal melalui Nusara Niaga. Beras segar, bersih, terjangkau, dan ikut mendukung ekonomi desa.**
+
+========================================================
+
+# PERFORMANCE
+
+Target Lighthouse:
+
+95–100
+
+Implement:
+
+* Next.js Image Optimization
+* Lazy Loading
+* Code Splitting
+* Server Components
+* Optimized Images
+* WebP / AVIF
+* Caching
+* Optimized Fonts
+* Minimal JavaScript
+
+========================================================
+
+# ACCESSIBILITY
+
+Follow WCAG principles.
+
+Implement:
+
+* Semantic HTML
+* Proper heading hierarchy
+* Alt text
+* Keyboard navigation
+* Focus states
+* Accessible forms
+* Accessible buttons
+* ARIA labels
+* Proper color contrast
+
+========================================================
+
+# ANIMATIONS
+
+Use Framer Motion.
+
+Include:
+
+* Fade Up
+* Fade In
+* Slide In
+* Scroll Reveal
+* Product Hover
+* Image Zoom
+* Floating Elements
+* Animated Counters
+* Parallax Rice Field
+* Button Micro-interactions
+* Smooth Page Transitions
+
+Keep animations subtle and premium.
+
+========================================================
+
+# MOBILE FIRST
+
+Optimize for:
+
+Mobile
+Tablet
+Laptop
+Desktop
+Large Screens
+
+Mobile navigation:
+
+Clean hamburger menu.
+
+Mobile shopping:
+
+Floating cart button.
+
+Mobile checkout:
+
+Simple one-column checkout experience.
+
+Mobile WhatsApp:
+
+Sticky WhatsApp ordering CTA.
+
+========================================================
+
+# COMPONENT ARCHITECTURE
+
+Use reusable components.
+
+Example:
+
+components/
+
+├── Navbar
+├── Hero
+├── TrustSection
+├── ProductCard
+├── ProductGrid
+├── ProductDetail
+├── FarmerCard
+├── VillageSection
+├── FarmToTable
+├── QualitySection
+├── ImpactSection
+├── ProcessTimeline
+├── TestimonialCard
+├── ArticleCard
+├── FAQ
+├── Cart
+├── Checkout
+├── OrderTracking
+├── WhatsAppButton
+├── Footer
+└── UI
+
+Use data-driven reusable components.
+
+Avoid duplicated code.
+
+========================================================
+
+# IMPORTANT USER EXPERIENCE
+
+Within the first 5 seconds, users must understand:
+
+WHAT?
+
+**Beras berkualitas.**
+
+WHERE FROM?
+
+**Petani dan desa lokal.**
+
+WHY?
+
+**Kualitas terjaga, harga bersahabat, sekaligus mendukung ekonomi desa.**
+
+HOW TO BUY?
+
+**Online Checkout atau WhatsApp.**
+
+The primary **"Beli Beras"** CTA must remain highly visible.
+
+========================================================
+
+# VISUAL STORYTELLING
+
+Use authentic Indonesian agricultural imagery.
+
+Hero:
+
+Indonesian rice field + farmer.
+
+Product:
+
+Premium rice packaging + rice grains.
+
+Farmer:
+
+Realistic Indonesian farmer portraits.
+
+Village:
+
+Indonesian village and rice field.
+
+Process:
+
+Harvest → Drying → Milling → Sorting → Packaging.
+
+Avoid generic Western agricultural stock imagery.
+
+The visual identity should feel authentically Indonesian.
+
+========================================================
+
+# BRAND LOGO DIRECTION
+
+Create a simple modern logo concept for:
+
+**NUSARA NIAGA**
+
+Possible visual elements:
+
+* Rice grain
+* Rice field
+* Leaf
+* Sun
+* Abstract Nusantara shape
+
+Logo should be:
+
+* Minimal
+* Modern
+* Memorable
+* Scalable
+* Suitable for rice packaging
+* Suitable for website
+* Suitable for social media
+* Suitable for printed sacks
+
+Do not make the logo overly complex.
+
+========================================================
+
+# PACKAGING DIRECTION
+
+Create product packaging mockup placeholders for:
+
+**NUSARA PREMIUM**
+
+**NUSARA MEDIUM**
+
+**NUSARA PANDAN WANGI**
+
+Packaging style:
+
+* Premium
+* Clean
+* Modern
+* Natural
+* Indonesian
+* Easy to recognize
+
+Include:
+
+Nusara Niaga logo
+Product name
+Rice variety
+Weight
+Origin
+Harvest information
+Quality information
+QR Code placeholder
+
+========================================================
+
+# FINAL DESIGN PRINCIPLE
+
+The final website must communicate:
+
+**PETANI LOKAL**
+↓
+**BERAS BERKUALITAS**
+↓
+**NUSARA NIAGA**
+↓
+**HARGA BERSAHABAT**
+↓
+**KELUARGA INDONESIA**
+↓
+**EKONOMI DESA YANG LEBIH KUAT**
+
+The final result should feel like a **premium Indonesian agricultural startup**, not a generic rice store.
+
+Nusara Niaga should look like a brand that can start from one village and eventually expand to serve customers throughout Indonesia.
+
+Make the final website visually impressive, highly trustworthy, conversion-focused, mobile-friendly, and ready to evolve into a complete agricultural e-commerce ecosystem.
