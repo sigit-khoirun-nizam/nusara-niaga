@@ -37,10 +37,10 @@ export function TrustSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl md:text-4xl font-bold text-foreground"
+            className="text-4xl md:text-5xl font-extrabold text-foreground"
           >
             Lebih Dekat dengan Sumbernya. <br className="hidden md:block" />
-            <span className="text-primary">Lebih Yakin dengan Kualitasnya.</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#78A85A]">Lebih Yakin dengan Kualitasnya.</span>
           </motion.h2>
         </div>
 
@@ -52,14 +52,16 @@ export function TrustSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="group"
             >
-              <Card className="h-full border-none shadow-lg bg-card hover:-translate-y-2 transition-transform duration-300">
-                <CardContent className="p-8 flex flex-col items-center text-center">
-                  <div className="w-16 h-16 rounded-2xl bg-secondary/30 flex items-center justify-center text-primary mb-6">
+              <Card className="h-full border border-border/40 shadow-sm bg-card/50 backdrop-blur-sm group-hover:shadow-2xl group-hover:-translate-y-2 transition-all duration-300 overflow-hidden relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <CardContent className="p-8 flex flex-col items-center text-center relative z-10">
+                  <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300 shadow-inner">
                     <feature.icon className="w-8 h-8" />
                   </div>
-                  <h3 className="text-lg font-bold text-foreground mb-3">{feature.title}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <h3 className="text-xl font-bold text-foreground mb-3">{feature.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">
                     {feature.description}
                   </p>
                 </CardContent>

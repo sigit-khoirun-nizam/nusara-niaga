@@ -1,56 +1,71 @@
 "use client";
 
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, User, MessageSquare, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 export default function KontakPage() {
   return (
-    <div className="pt-8 pb-20">
-      <div className="container mx-auto px-4 md:px-6 max-w-6xl">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Mari Tumbuhkan <span className="text-primary">Ekonomi Desa</span> Bersama.
-          </h1>
-          <p className="text-lg text-muted-foreground">
-            Punya pertanyaan, masukan, atau ingin bekerja sama? Jangan ragu untuk menghubungi tim kami. Kami siap mendengarkan.
-          </p>
+    <div className="pt-0 pb-20 overflow-hidden">
+      {/* Hero Section */}
+      <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 text-center max-w-5xl mx-auto px-4 md:px-6">
+        <div className="absolute top-0 right-1/3 w-96 h-96 bg-primary/10 blur-[120px] -z-10 rounded-full pointer-events-none" />
+        
+        <div className="inline-flex items-center justify-center px-4 py-1.5 mb-8 rounded-full bg-primary/10 text-primary text-sm font-medium border border-primary/20">
+          📞 Hubungi Kami
         </div>
+        
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-8 text-foreground tracking-tight leading-[1.1]">
+          Mari Tumbuhkan <br className="hidden md:block" />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#78A85A]">
+            Ekonomi Desa Bersama.
+          </span>
+        </h1>
+        
+        <p className="text-lg md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light">
+          Punya pertanyaan, masukan, atau ingin bekerja sama? Jangan ragu untuk menghubungi tim kami. Kami siap mendengarkan.
+        </p>
+      </section>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+      <div className="container mx-auto px-4 md:px-6 max-w-6xl mt-4">
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Contact Info */}
-          <div>
-            <h2 className="text-2xl font-bold mb-8">Informasi Kontak</h2>
+          <div className="space-y-10">
+            <div className="space-y-4">
+              <h2 className="text-3xl font-bold">Informasi Kontak</h2>
+              <p className="text-muted-foreground text-lg">Anda juga dapat menghubungi kami melalui saluran di bawah ini.</p>
+            </div>
             
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
-                  <Phone className="w-6 h-6" />
+            <div className="space-y-8">
+              <div className="flex items-start gap-5 group cursor-pointer">
+                <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary shrink-0 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300 shadow-sm">
+                  <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">WhatsApp / Telepon</h3>
-                  <p className="text-muted-foreground">+62 811-XXXX-XXXX</p>
+                  <h3 className="font-bold text-xl mb-1 group-hover:text-primary transition-colors">WhatsApp / Telepon</h3>
+                  <p className="text-foreground text-lg">+62 811-XXXX-XXXX</p>
                   <p className="text-sm text-muted-foreground mt-1">Senin - Sabtu, 08:00 - 17:00 WIB</p>
                 </div>
               </div>
               
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
-                  <Mail className="w-6 h-6" />
+              <div className="flex items-start gap-5 group cursor-pointer">
+                <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary shrink-0 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300 shadow-sm">
+                  <Mail className="w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">Email</h3>
-                  <p className="text-muted-foreground">halo@nusaraniaga.com</p>
+                  <h3 className="font-bold text-xl mb-1 group-hover:text-primary transition-colors">Email</h3>
+                  <p className="text-foreground text-lg">halo@nusaraniaga.com</p>
                 </div>
               </div>
               
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
-                  <MapPin className="w-6 h-6" />
+              <div className="flex items-start gap-5 group cursor-pointer">
+                <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary shrink-0 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300 shadow-sm">
+                  <MapPin className="w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">Kantor Pusat</h3>
-                  <p className="text-muted-foreground">
+                  <h3 className="font-bold text-xl mb-1 group-hover:text-primary transition-colors">Kantor Pusat</h3>
+                  <p className="text-muted-foreground leading-relaxed">
                     Gedung Nusara Niaga<br />
                     Jl. Jenderal Sudirman No. 123<br />
                     Jakarta Selatan, 12190<br />
@@ -79,30 +94,63 @@ export default function KontakPage() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-card border border-border rounded-3xl p-8 shadow-sm">
-            <h2 className="text-2xl font-bold mb-6">Kirim Pesan</h2>
-            <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-              <div className="space-y-2">
-                <label className="text-sm font-medium">Nama Lengkap</label>
-                <Input placeholder="Masukkan nama Anda" />
+          <div className="bg-card border border-border/50 rounded-3xl p-8 md:p-10 shadow-lg relative overflow-hidden">
+            {/* Decorative background blur */}
+            <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+            
+            <h2 className="text-3xl font-bold mb-2">Kirim Pesan</h2>
+            <p className="text-muted-foreground mb-8">Kami akan membalas pesan Anda secepatnya.</p>
+            
+            <form className="space-y-6 relative z-10" onSubmit={(e) => e.preventDefault()}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-2 group">
+                  <label className="text-sm font-medium flex items-center gap-2 text-foreground/80 group-focus-within:text-primary transition-colors">
+                    <User className="w-4 h-4" />
+                    Nama Lengkap
+                  </label>
+                  <Input 
+                    placeholder="Masukkan nama Anda" 
+                    className="h-12 rounded-xl bg-muted/50 border-transparent focus:bg-background focus:border-primary transition-all"
+                  />
+                </div>
+                <div className="space-y-2 group">
+                  <label className="text-sm font-medium flex items-center gap-2 text-foreground/80 group-focus-within:text-primary transition-colors">
+                    <Phone className="w-4 h-4" />
+                    Nomor WhatsApp
+                  </label>
+                  <Input 
+                    placeholder="0812xxxxxx" 
+                    className="h-12 rounded-xl bg-muted/50 border-transparent focus:bg-background focus:border-primary transition-all"
+                  />
+                </div>
               </div>
-              <div className="space-y-2">
-                <label className="text-sm font-medium">Nomor WhatsApp</label>
-                <Input placeholder="0812xxxxxx" />
+              
+              <div className="space-y-2 group">
+                <label className="text-sm font-medium flex items-center gap-2 text-foreground/80 group-focus-within:text-primary transition-colors">
+                  <Mail className="w-4 h-4" />
+                  Email
+                </label>
+                <Input 
+                  type="email" 
+                  placeholder="email@contoh.com" 
+                  className="h-12 rounded-xl bg-muted/50 border-transparent focus:bg-background focus:border-primary transition-all"
+                />
               </div>
-              <div className="space-y-2">
-                <label className="text-sm font-medium">Email</label>
-                <Input type="email" placeholder="email@contoh.com" />
-              </div>
-              <div className="space-y-2">
-                <label className="text-sm font-medium">Pesan</label>
+              
+              <div className="space-y-2 group">
+                <label className="text-sm font-medium flex items-center gap-2 text-foreground/80 group-focus-within:text-primary transition-colors">
+                  <MessageSquare className="w-4 h-4" />
+                  Pesan
+                </label>
                 <textarea 
-                  className="w-full min-h-[120px] rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-                  placeholder="Tulis pesan atau pertanyaan Anda di sini..."
+                  className="w-full min-h-[150px] rounded-xl border-transparent bg-muted/50 px-4 py-3 text-sm shadow-sm placeholder:text-muted-foreground focus:bg-background focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all resize-none"
+                  placeholder="Ceritakan detail pertanyaan atau kerja sama yang Anda inginkan..."
                 ></textarea>
               </div>
-              <Button type="submit" size="lg" className="w-full mt-2">
-                Hubungi Nusara Niaga
+              
+              <Button type="submit" size="lg" className="w-full h-14 rounded-xl text-base font-medium group transition-all mt-4">
+                Kirim Pesan Sekarang
+                <Send className="w-4 h-4 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </Button>
             </form>
           </div>
