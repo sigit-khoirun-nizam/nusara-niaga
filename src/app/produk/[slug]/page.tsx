@@ -18,7 +18,7 @@ const getProductBySlug = (slug: string) => {
     reviews: 128,
     imageColor: "bg-primary/20",
     details: {
-      asal: "Desa Sukamaju, Jawa Barat",
+      asal: "Desa Pucangro, Jawa Timur",
       varietas: "IR64",
       panen: "Agustus 2026",
       penggilingan: "Mekar Tani Mill"

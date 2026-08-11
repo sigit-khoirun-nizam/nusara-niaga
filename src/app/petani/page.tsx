@@ -30,7 +30,7 @@ export default function PetaniPage() {
             <div className="inline-flex items-center justify-center p-3 bg-primary/10 rounded-2xl text-primary mb-2">
               <Wheat className="w-6 h-6" />
             </div>
-            <h2 className="text-3xl font-bold">Kisah Pak Darmo dari Desa Sukamaju</h2>
+            <h2 className="text-3xl font-bold">Kisah Pak Darmo dari Desa Pucangro</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "Sejak bergabung dengan Nusara Niaga, hasil panen kami diserap dengan harga yang adil. Kami kini bisa lebih fokus merawat padi tanpa khawatir harga anjlok saat panen raya."
             </p>
@@ -39,7 +39,7 @@ export default function PetaniPage() {
             </p>
             <div className="flex items-center gap-2 text-primary font-medium">
               <MapPin className="w-5 h-5" />
-              <span>Desa Sukamaju, Jawa Barat</span>
+              <span>Desa Pucangro, Jawa Timur</span>
             </div>
           </div>
         </div>
