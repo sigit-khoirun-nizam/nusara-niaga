@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Menu, ShoppingCart, Leaf, ChevronRight, Phone } from "lucide-react";
+import { Menu, ShoppingCart, Leaf, ChevronRight, Phone, Home, Package, Users, Factory, BookOpen, HelpCircle, MapPin } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -16,14 +16,14 @@ import {
 } from "@/components/ui/sheet";
 
 const navigation = [
-  { name: "Beranda", href: "/" },
-  { name: "Produk", href: "/produk" },
-  { name: "Tentang Kami", href: "/tentang-kami" },
-  { name: "Petani", href: "/petani" },
-  { name: "Proses", href: "/proses" },
-  { name: "Edukasi", href: "/edukasi" },
-  { name: "FAQ", href: "/faq" },
-  { name: "Kontak", href: "/kontak" },
+  { name: "Beranda", href: "/", icon: Home },
+  { name: "Produk", href: "/produk", icon: Package },
+  { name: "Tentang Kami", href: "/tentang-kami", icon: Users },
+  { name: "Petani", href: "/petani", icon: MapPin },
+  { name: "Proses", href: "/proses", icon: Factory },
+  { name: "Edukasi", href: "/edukasi", icon: BookOpen },
+  { name: "FAQ", href: "/faq", icon: HelpCircle },
+  { name: "Kontak", href: "/kontak", icon: Phone },
 ];
 
 export function Navbar() {
@@ -87,31 +87,43 @@ export function Navbar() {
                 <span className="sr-only">Toggle Menu</span>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-              <SheetTitle className="text-left mb-6 font-bold text-primary flex items-center gap-2">
-                <Leaf className="w-5 h-5" />
+              <SheetTitle className="text-center mt-6 mb-8 font-extrabold text-primary flex items-center justify-center gap-3 text-2xl">
+                <div className="bg-primary text-primary-foreground p-1.5 rounded-lg shadow-sm">
+                  <Leaf className="w-6 h-6" />
+                </div>
                 NUSARA NIAGA
               </SheetTitle>
-              <nav className="flex flex-col mt-4">
+              
+              <nav className="grid grid-cols-2 gap-3 mt-4">
                 {navigation.map((item) => (
                   <SheetClose
                     key={item.name}
                     render={<Link href={item.href} />}
-                    className="flex items-center justify-between py-4 border-b border-border/50 text-lg font-medium text-foreground/90 hover:text-primary transition-colors"
+                    className="flex flex-col items-center justify-center gap-3 p-4 rounded-2xl bg-muted/30 border border-border/50 hover:border-primary/30 hover:bg-primary/5 group transition-all duration-300"
                   >
-                    {item.name}
-                    <ChevronRight className="w-5 h-5 text-muted-foreground/50" />
+                    <div className="w-12 h-12 rounded-full bg-background flex items-center justify-center shadow-sm text-muted-foreground group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                      <item.icon className="w-5 h-5" />
+                    </div>
+                    <span className="font-semibold text-sm text-foreground/80 group-hover:text-primary transition-colors text-center leading-tight">
+                      {item.name}
+                    </span>
                   </SheetClose>
                 ))}
               </nav>
               
-              <div className="mt-8 space-y-4">
-                 <div className="p-4 bg-primary/5 rounded-2xl border border-primary/10">
-                    <h4 className="font-semibold text-primary mb-2">Butuh Bantuan?</h4>
-                    <p className="text-sm text-muted-foreground mb-4">Hubungi layanan pelanggan kami untuk pertanyaan atau pemesanan.</p>
-                    <Button render={<a href="https://wa.me/6281100000000" target="_blank" rel="noopener noreferrer" />} className="w-full bg-[#25D366] text-white hover:bg-[#128C7E]">
-                       <Phone className="w-4 h-4 mr-2" />
-                       WhatsApp Kami
-                    </Button>
+              <div className="mt-auto pt-8">
+                 <div className="p-5 bg-gradient-to-br from-primary/10 to-primary/5 rounded-3xl border border-primary/20 relative overflow-hidden">
+                    <div className="absolute -right-4 -top-4 w-16 h-16 bg-primary/20 rounded-full blur-xl" />
+                    <h4 className="font-bold text-primary mb-2 text-lg">Butuh Bantuan?</h4>
+                    <p className="text-sm text-muted-foreground mb-5 leading-relaxed relative z-10">
+                      Hubungi layanan pelanggan kami untuk pertanyaan atau pemesanan skala besar.
+                    </p>
+                    <a href="https://wa.me/6281100000000" target="_blank" rel="noopener noreferrer" className="block w-full relative z-10">
+                      <Button className="w-full bg-[#25D366] text-white hover:bg-[#128C7E] shadow-md h-12 rounded-xl text-base">
+                         <Phone className="w-5 h-5 mr-2" />
+                         WhatsApp Kami
+                      </Button>
+                    </a>
                  </div>
               </div>
             </SheetContent>
