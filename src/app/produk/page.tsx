@@ -21,7 +21,7 @@ export default function ProdukPage() {
             <div className="inline-flex items-center justify-center px-4 py-1.5 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium">
               🌾 Hasil Panen Terbaik Nusantara
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground tracking-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 text-foreground tracking-tight leading-[1.1]">
               Semua <span className="text-primary relative">
                 Produk
                 <svg className="absolute -bottom-2 left-0 w-full text-primary/30" viewBox="0 0 100 10" preserveAspectRatio="none">

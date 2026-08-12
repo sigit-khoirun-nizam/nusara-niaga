@@ -34,7 +34,7 @@ export default function AboutPage() {
           </span>
         </h1>
         
-        <p className="text-lg md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light">
+        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light">
           Nusara Niaga hadir untuk memperpendek jarak antara hasil pertanian desa dan kebutuhan masyarakat. Kami memastikan ekosistem yang sehat untuk semua.
         </p>
       </section>
@@ -52,8 +52,8 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-8 shadow-inner">
                 <Eye className="w-8 h-8" />
               </div>
-              <h2 className="text-3xl font-bold mb-6">Visi Kami</h2>
-              <p className="text-xl text-muted-foreground leading-relaxed font-medium">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Visi Kami</h2>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-medium">
                 "Menjadi brand perdagangan hasil desa terpercaya yang menghubungkan produk lokal dengan masyarakat Indonesia melalui sistem yang adil dan modern."
               </p>
             </div>
@@ -64,8 +64,8 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-white/10 text-white rounded-2xl flex items-center justify-center mb-8 shadow-inner backdrop-blur-md">
                 <Target className="w-8 h-8" />
               </div>
-              <h2 className="text-3xl font-bold mb-6">Misi Kami</h2>
-              <ul className="space-y-4 text-primary-foreground/90 text-lg">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Misi Kami</h2>
+              <ul className="space-y-4 text-primary-foreground/90 text-base md:text-lg">
                 <li className="flex items-center gap-4"><div className="w-2 h-2 rounded-full bg-white shadow-[0_0_8px_rgba(255,255,255,0.8)]" /> Meningkatkan akses pasar petani</li>
                 <li className="flex items-center gap-4"><div className="w-2 h-2 rounded-full bg-white shadow-[0_0_8px_rgba(255,255,255,0.8)]" /> Menyediakan produk berkualitas tinggi</li>
                 <li className="flex items-center gap-4"><div className="w-2 h-2 rounded-full bg-white shadow-[0_0_8px_rgba(255,255,255,0.8)]" /> Memberikan harga yang kompetitif</li>
@@ -80,8 +80,8 @@ export default function AboutPage() {
       {/* Values */}
       <section className="container mx-auto px-4 md:px-6 max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Nilai Brand</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Prinsip yang kami pegang teguh dalam setiap langkah membangun Nusara Niaga.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Nilai Brand</h2>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">Prinsip yang kami pegang teguh dalam setiap langkah membangun Nusara Niaga.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

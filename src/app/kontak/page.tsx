@@ -22,7 +22,7 @@ export default function KontakPage() {
           </span>
         </h1>
         
-        <p className="text-lg md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light">
+        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light">
           Punya pertanyaan, masukan, atau ingin bekerja sama? Jangan ragu untuk menghubungi tim kami. Kami siap mendengarkan.
         </p>
       </section>
@@ -33,7 +33,7 @@ export default function KontakPage() {
           {/* Contact Info */}
           <div className="space-y-10">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold">Informasi Kontak</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Informasi Kontak</h2>
               <p className="text-muted-foreground text-lg">Anda juga dapat menghubungi kami melalui saluran di bawah ini.</p>
             </div>
             

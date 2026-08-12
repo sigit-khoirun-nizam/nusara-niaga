@@ -64,7 +64,7 @@ export function ProductGrid({ hideHeader = false }: { hideHeader?: boolean }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-muted-foreground text-lg"
+              className="text-lg md:text-xl text-muted-foreground font-light"
             >
               Beras pilihan untuk kebutuhan keluarga sehari-hari.
             </motion.p>

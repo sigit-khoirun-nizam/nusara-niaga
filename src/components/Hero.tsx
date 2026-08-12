@@ -37,25 +37,29 @@ export function Hero() {
               </Badge>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-foreground leading-[1.1] mb-2">
               Dari Desa, <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-[#78A85A] to-primary bg-300% animate-gradient">
                 Untuk Nusantara.
               </span>
             </h1>
             
-            <p className="text-lg md:text-2xl text-muted-foreground leading-relaxed max-w-xl font-light">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl font-light">
               Nusara Niaga menghadirkan beras berkualitas dari petani lokal dengan proses yang terjaga, harga bersahabat, dan manfaat yang kembali menggerakkan ekonomi desa.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
-              <Button render={<Link href="/produk" />} size="lg" className="h-14 px-8 text-base shadow-lg shadow-primary/20 group">
-                  Beli Beras
-                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button render={<Link href="/tentang-kami" />} size="lg" variant="outline" className="h-14 px-8 text-base border-primary/20 hover:bg-primary/5">
-                  Kenali Nusara Niaga
-              </Button>
+              <Link href="/produk" className="w-full sm:w-auto">
+                <Button size="lg" className="w-full h-14 px-8 text-base shadow-lg shadow-primary/20 group">
+                    Beli Beras
+                    <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+              <Link href="/tentang-kami" className="w-full sm:w-auto">
+                <Button size="lg" variant="outline" className="w-full h-14 px-8 text-base border-primary/20 hover:bg-primary/5">
+                    Kenali Nusara Niaga
+                </Button>
+              </Link>
             </div>
           </motion.div>
 

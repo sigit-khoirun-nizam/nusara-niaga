@@ -2,7 +2,13 @@ Console Error
 
 
 
-Base UI: A component that acts as a button expected a native <button> because the `nativeButton` prop is true. Rendering a non-<button> removes native button semantics, which can impact forms and accessibility. Use a real <button> in the `render` prop, or set `nativeButton` to `false`.
-    at Button (http://localhost:3000/_next/static/chunks/src_0-8sg4w._.js:323:214)
-    at Hero (http://localhost:3000/_next/static/chunks/src_components_1kjxkqy._.js?id=%255Bproject%255D/src/components/Hero.tsx+%255Bapp-client%255D+(ecmascript):188:243)
-    at Home (about://React/Server/C:%5CUsers%5CNizam%5COneDrive%5CDesktop%5Cnusara-niaga%5C.next%5Cdev%5Cserver%5Cchunks%5Cssr%5C%5Broot-of-the-server%5D__1swyg1z._.js?60:50:264)
+Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template).
+src/components/ThemeProvider.tsx (10:10) @ ThemeProvider
+
+
+   8 |   ...props
+   9 | }: React.ComponentProps<typeof NextThemesProvider>) {
+> 10 |   return <NextThemesProvider {...props}>{children}</NextThemesProvider>
+     |          ^
+  11 | }
+  12 |

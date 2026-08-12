@@ -25,7 +25,7 @@ export default function PetaniPage() {
           </span>
         </h1>
         
-        <p className="text-lg md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light">
+        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light">
           Berkenalan lebih dekat dengan para petani dan masyarakat desa yang berdedikasi menghasilkan beras berkualitas untuk meja makan Anda.
         </p>
       </section>

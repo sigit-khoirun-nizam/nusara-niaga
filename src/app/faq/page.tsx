@@ -23,7 +23,7 @@ export default function FAQPage() {
           </span>
         </h1>
         
-        <p className="text-lg md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light mb-8">
+        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-light mb-8">
           Temukan jawaban cepat untuk pertanyaan umum seputar produk, pengiriman, dan layanan Nusara Niaga.
         </p>
       </section>

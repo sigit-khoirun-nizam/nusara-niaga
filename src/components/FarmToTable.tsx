@@ -32,7 +32,7 @@ export function FarmToTable() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-primary-foreground/80 text-lg"
+            className="text-lg md:text-xl text-primary-foreground/90 font-light"
           >
             Menjaga setiap langkah proses untuk memastikan Anda mendapatkan beras dengan kualitas terbaik.
           </motion.p>

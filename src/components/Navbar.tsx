@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, ShoppingCart, Leaf, ChevronRight, Phone } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 import {
   Sheet,
@@ -70,8 +71,10 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <ThemeToggle />
+          
           <Link href="/cart">
-            <Button variant="ghost" size="icon" className="relative group">
+            <Button variant="ghost" size="icon" className="relative group w-9 h-9">
               <ShoppingCart className="w-5 h-5 text-foreground/80 group-hover:text-primary transition-colors" />
               {/* Optional: Add badge here for cart count later */}
               <span className="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full"></span>

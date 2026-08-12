@@ -30,7 +30,7 @@ export function ImpactSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-muted-foreground text-lg leading-relaxed"
+            className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light"
           >
             Ketika Anda membeli produk Nusara Niaga, Anda tidak hanya membeli beras. Anda ikut mendukung petani lokal, penggilingan lokal, pekerja desa, dan pertumbuhan ekonomi desa secara keseluruhan.
           </motion.p>
